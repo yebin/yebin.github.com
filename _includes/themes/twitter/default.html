@@ -2,10 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - 叶斌的 Jekyll 网站</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
-
+	<meta name="me" content="https://plus.google.com/117301919963727743144" />
+<meta name="author" content="https://plus.google.com/117301919963727743144" />
+<meta name="publisher" content="https://plus.google.com/117301919963727743144" />
+{% if page.description %}
+		<meta name="description" content="{{page.description}}" />
+		{% else %}
+		<meta name="description" content="叶斌的 Jekyll 网站" />
+	{% endif %}
+	<meta name="keywords" content="叶斌的 Jekyll 网站" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
