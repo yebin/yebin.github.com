@@ -1,6 +1,6 @@
 ---
 layout: page
-title: bin
+title: 
 description: 叶斌的 Jekyll 首页 index
 ---
 {% include JB/setup %}
