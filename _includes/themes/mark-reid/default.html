@@ -16,13 +16,14 @@
 		{% else %}
 		<meta name="description" content="叶斌的 Jekyll 网站" />
 	{% endif %}
-
-
-   <link rel="start" href="{{ HOME_PATH }}" />
-
+	
 	{% if page.keywords %}
 	<meta name="keywords" content="{{ page.keywords }}">
 	{% endif %}
+	
+   <link rel="start" href="{{ HOME_PATH }}" />
+
+
 	
 	{% if site.author.feedburner %}
   	<link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/{{ site.author.feedburner }}" title="RSS feed" />
