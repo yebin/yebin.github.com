@@ -1,12 +1,12 @@
 <div id="page">
 	
-  <h1 class="emphnext entry-title">{{ page.title }}</h1>
+  <h1 class="emphnext">{{ page.title }}</h1>
   <ul class="tag_box inline">
   {% assign tags_list = page.tags %}
   {% include JB/tags_list %}
   </ul>
 
- <div class="entry-content">{{ content }}</div>
+{{ content }}
 
   <address class="signature">
     <a class="author" href="{{ HOME_PATH }}">{{ site.author.name }}</a> 
