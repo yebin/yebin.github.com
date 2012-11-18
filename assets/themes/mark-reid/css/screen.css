@@ -547,3 +547,80 @@ img.maruku-png { }
 	color:#FFF;
 }
 
+#containerSlider {
+ width:800px;
+ height:300px;
+ margin:10px auto 0 auto;
+ position:relative;
+ background:url(http://ww2.sinaimg.cn/large/737917b2gw1dw84h5ds3lj.jpg) no-repeat;
+ }
+#contentSlider {
+ width:474px
+ height:300px;
+ float:right;
+ margin:55px 61px 0 0;
+ .margin:55px 0 0 44px;
+ _margin:55px 10px 0 44px;
+ }
+#contentslider-text {
+ color:#606d56;
+ margin:top:20px;
+ width:270px;
+ margin-top:50px;
+ float:left;
+ height:200px;
+ padding:0 15px 0 20px;
+ overflow:hidden;
+
+ }
+#contentslider-text h1 {
+ background:url() repeat-x bottom;
+ font-size:20px;
+
+ padding-bottom:5px;
+ margin:0;
+ }
+#prevBtn, #nextBtn {
+ display:block;
+ margin:0;
+ overflow:hidden;
+ padding:0;
+ text-indent:-8000px;
+ }
+#slider ul, #slider li {
+ list-style:none;
+ margin:0;
+ padding:0;
+ text-indent:0;
+ }
+#slider, #slider li {
+ overflow:hidden;
+ width:390px;
+ height:190px;
+ margin:0 auto;
+ }
+#slider {
+ margin-left:0;
+ background:#ccc;
+ }
+#prevBtn, #nextBtn {
+ display:block;
+ height:43px;
+ left:306px;
+ position:absolute;
+ top:127px;
+ width:37px;
+ }
+#nextBtn {
+ left:745px;
+ }
+#prevBtn a, #nextBtn a {
+ display:block;
+ height:43px;
+ width:37px;
+ }
+#slider img {
+ padding:0;
+ width:400px;
+ height:auto;
+ }
